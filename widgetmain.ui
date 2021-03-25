@@ -1,0 +1,4815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetMain</class>
+ <widget class="QWidget" name="WidgetMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font/>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>WidgetMain</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(210, 210, 210);</string>
+  </property>
+  <widget class="QLabel" name="label_modelocate">
+   <property name="geometry">
+    <rect>
+     <x>38</x>
+     <y>46</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;就地&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t2">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>111</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_display1">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>362</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#Hz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t15">
+   <property name="geometry">
+    <rect>
+     <x>568</x>
+     <y>115</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>164</y>
+     <width>7</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/zgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1">
+   <property name="geometry">
+    <rect>
+     <x>678</x>
+     <y>352</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_mod5">
+   <property name="geometry">
+    <rect>
+     <x>338</x>
+     <y>259</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_45">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>41</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;控制&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t13">
+   <property name="geometry">
+    <rect>
+     <x>763</x>
+     <y>62</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t2">
+   <property name="geometry">
+    <rect>
+     <x>526</x>
+     <y>111</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t6">
+   <property name="geometry">
+    <rect>
+     <x>526</x>
+     <y>152</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t9">
+   <property name="geometry">
+    <rect>
+     <x>743</x>
+     <y>99</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_up">
+   <property name="geometry">
+    <rect>
+     <x>491</x>
+     <y>62</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/YCP/YCP/JQ1_OFF_CQ1_OFF_JQ2_OFF_CQ2_OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite2_w_2">
+   <property name="geometry">
+    <rect>
+     <x>67</x>
+     <y>274</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/lgj-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>636</x>
+     <y>370</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>瓦斯:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_cs_w">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>295</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/rxgj.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/rxgj-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>400</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>输出电流:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lowpool">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>379</y>
+     <width>281</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sump.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_mod5">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>259</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_valve5">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>274</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t10">
+   <property name="geometry">
+    <rect>
+     <x>743</x>
+     <y>117</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t13">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>60</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>2</y>
+     <width>801</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(50, 130, 240);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_loginstatus_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>5</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;未登录&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_usrname_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>5</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ip_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>0</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(238, 238, 236);</string>
+    </property>
+    <property name="text">
+     <string>133.135.137.180</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_systime_3">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>0</y>
+      <width>67</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;系统时间:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_3">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>0</y>
+      <width>120</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(238, 238, 236);</string>
+    </property>
+    <property name="text">
+     <string>2016-11-11 11:11:11</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ip_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>0</y>
+      <width>55</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;通信IP :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title_3">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>5</y>
+      <width>200</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>瓦斯抽采放监控系统分站</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t8">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>60</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_up">
+   <property name="geometry">
+    <rect>
+     <x>143</x>
+     <y>62</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/YCP/YCP/JQ1_OFF_CQ1_OFF_JQ2_OFF_CQ2_OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_6">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>334</y>
+     <width>351</width>
+     <height>108</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t11">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>140</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value9">
+   <property name="geometry">
+    <rect>
+     <x>678</x>
+     <y>424</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_mod5">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>259</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t6">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>152</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t5">
+   <property name="geometry">
+    <rect>
+     <x>728</x>
+     <y>160</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1#高负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_43">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>55</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;方式&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_display1">
+   <property name="geometry">
+    <rect>
+     <x>356</x>
+     <y>362</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#Hz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t3">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>118</y>
+     <width>4</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_valve5">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>274</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t7">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>151</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>424</y>
+     <width>40</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>故障状态</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_4">
+   <property name="geometry">
+    <rect>
+     <x>633</x>
+     <y>162</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>高压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_cs">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>295</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/rxgj.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/rxgj.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_display2">
+   <property name="geometry">
+    <rect>
+     <x>356</x>
+     <y>380</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#V</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite3_w">
+   <property name="geometry">
+    <rect>
+     <x>253</x>
+     <y>289</y>
+     <width>493</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg4-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_cs_w">
+   <property name="geometry">
+    <rect>
+     <x>411</x>
+     <y>295</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/rxgj.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/rxgj-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t15">
+   <property name="geometry">
+    <rect>
+     <x>746</x>
+     <y>115</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2#高负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t11">
+   <property name="geometry">
+    <rect>
+     <x>743</x>
+     <y>140</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>340</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>1#低负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t5">
+   <property name="geometry">
+    <rect>
+     <x>544</x>
+     <y>160</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t3">
+   <property name="geometry">
+    <rect>
+     <x>728</x>
+     <y>118</y>
+     <width>4</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t4">
+   <property name="geometry">
+    <rect>
+     <x>728</x>
+     <y>139</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_waterA">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>321</y>
+     <width>59</width>
+     <height>113</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/1#SB-OFF-CSF-OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t5">
+   <property name="geometry">
+    <rect>
+     <x>367</x>
+     <y>160</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_mod2">
+   <property name="geometry">
+    <rect>
+     <x>338</x>
+     <y>44</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t8">
+   <property name="geometry">
+    <rect>
+     <x>743</x>
+     <y>62</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite1_2">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>168</y>
+     <width>7</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/sdg.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/zgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t9">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_display1">
+   <property name="geometry">
+    <rect>
+     <x>566</x>
+     <y>362</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#Hz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_valve2">
+   <property name="geometry">
+    <rect>
+     <x>338</x>
+     <y>59</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_display2">
+   <property name="geometry">
+    <rect>
+     <x>496</x>
+     <y>380</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#V</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t11">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>140</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value10">
+   <property name="geometry">
+    <rect>
+     <x>748</x>
+     <y>424</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>424</y>
+     <width>12</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:6px;
+background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_down">
+   <property name="geometry">
+    <rect>
+     <x>278</x>
+     <y>182</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/WSB-OFF-JSQF-OFF-W.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>424</y>
+     <width>40</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>合闸运行</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>400</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t13">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>60</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_mod2">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>44</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t9">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>424</y>
+     <width>12</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:6px;
+background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t1">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>111</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t6">
+   <property name="geometry">
+    <rect>
+     <x>713</x>
+     <y>152</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value8">
+   <property name="geometry">
+    <rect>
+     <x>748</x>
+     <y>406</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_valve2">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>59</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_modemanual">
+   <property name="geometry">
+    <rect>
+     <x>38</x>
+     <y>86</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;手动 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_9">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>162</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>低压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t4">
+   <property name="geometry">
+    <rect>
+     <x>544</x>
+     <y>139</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t3">
+   <property name="geometry">
+    <rect>
+     <x>544</x>
+     <y>118</y>
+     <width>4</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_mod2">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>40</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value2">
+   <property name="geometry">
+    <rect>
+     <x>748</x>
+     <y>352</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_watercut1_4">
+   <property name="geometry">
+    <rect>
+     <x>688</x>
+     <y>209</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>缺 水</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_modeauto">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>86</y>
+     <width>35</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;自动&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_display2">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>380</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#V</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_display1">
+   <property name="geometry">
+    <rect>
+     <x>496</x>
+     <y>362</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#Hz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_cs_w">
+   <property name="geometry">
+    <rect>
+     <x>772</x>
+     <y>295</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/rxgj.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/rxgj-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_valve2">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>59</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite2">
+   <property name="geometry">
+    <rect>
+     <x>67</x>
+     <y>274</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/lgj.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t7">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>151</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_46">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>424</y>
+     <width>40</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>分闸待机</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_valve5">
+   <property name="geometry">
+    <rect>
+     <x>338</x>
+     <y>274</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>424</y>
+     <width>121</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>按F1/F2”切换菜单选择</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t14">
+   <property name="geometry">
+    <rect>
+     <x>403</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>362</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>运行频率:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_valve5">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>269</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_watercut1_3">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>209</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>缺 水</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value6">
+   <property name="geometry">
+    <rect>
+     <x>748</x>
+     <y>388</y>
+     <width>50</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>674</x>
+     <y>332</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>低压管路</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_mod1">
+   <property name="geometry">
+    <rect>
+     <x>288</x>
+     <y>74</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf_cs">
+   <property name="geometry">
+    <rect>
+     <x>256</x>
+     <y>311</y>
+     <width>520</width>
+     <height>6</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/hgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t3">
+   <property name="geometry">
+    <rect>
+     <x>367</x>
+     <y>118</y>
+     <width>4</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value7">
+   <property name="geometry">
+    <rect>
+     <x>678</x>
+     <y>406</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_display3">
+   <property name="geometry">
+    <rect>
+     <x>356</x>
+     <y>400</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t13">
+   <property name="geometry">
+    <rect>
+     <x>403</x>
+     <y>60</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_6">
+   <property name="geometry">
+    <rect>
+     <x>453</x>
+     <y>121</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>低压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_valve1">
+   <property name="geometry">
+    <rect>
+     <x>288</x>
+     <y>89</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_display3">
+   <property name="geometry">
+    <rect>
+     <x>496</x>
+     <y>400</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t10">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>117</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_up">
+   <property name="geometry">
+    <rect>
+     <x>674</x>
+     <y>62</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/YCP/YCP/JQ1_OFF_CQ1_OFF_JQ2_OFF_CQ2_OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_mod1">
+   <property name="geometry">
+    <rect>
+     <x>118</x>
+     <y>74</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t12">
+   <property name="geometry">
+    <rect>
+     <x>561</x>
+     <y>159</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_moderemote">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>46</y>
+     <width>35</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;远控&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_display3">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>400</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_up">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>62</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/YCP/YCP/JQ1_OFF_CQ1_OFF_JQ2_OFF_CQ2_OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_down">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>182</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/WSB-OFF-JSQF-OFF-W.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_watercut1_2">
+   <property name="geometry">
+    <rect>
+     <x>328</x>
+     <y>209</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>缺 水</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_highpool">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>119</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sump.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_8">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>162</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>低压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz_w3">
+   <property name="geometry">
+    <rect>
+     <x>435</x>
+     <y>310</y>
+     <width>155</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg2-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t14">
+   <property name="geometry">
+    <rect>
+     <x>763</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t9">
+   <property name="geometry">
+    <rect>
+     <x>561</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_mod1">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>74</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>636</x>
+     <y>424</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>CO:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>380</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>输出电压:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t8">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>60</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_valve1">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>89</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t2">
+   <property name="geometry">
+    <rect>
+     <x>713</x>
+     <y>111</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value4">
+   <property name="geometry">
+    <rect>
+     <x>748</x>
+     <y>370</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t11">
+   <property name="geometry">
+    <rect>
+     <x>561</x>
+     <y>140</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_mod2">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>44</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite2_w">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>289</y>
+     <width>150</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg2-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_mod1">
+   <property name="geometry">
+    <rect>
+     <x>648</x>
+     <y>74</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t6">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>152</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t10">
+   <property name="geometry">
+    <rect>
+     <x>561</x>
+     <y>117</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t1">
+   <property name="geometry">
+    <rect>
+     <x>493</x>
+     <y>111</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>636</x>
+     <y>352</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>压力:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>424</y>
+     <width>12</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:6px;
+background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite1_w">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>168</y>
+     <width>9</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sdg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_valve1">
+   <property name="geometry">
+    <rect>
+     <x>648</x>
+     <y>89</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t4">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>139</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_5">
+   <property name="geometry">
+    <rect>
+     <x>453</x>
+     <y>162</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>高压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_down">
+   <property name="geometry">
+    <rect>
+     <x>458</x>
+     <y>182</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/WSB-OFF-JSQF-OFF-W.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t14">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t14">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>94</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>81</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;操作&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t12">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>159</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value3">
+   <property name="geometry">
+    <rect>
+     <x>678</x>
+     <y>370</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t1">
+   <property name="geometry">
+    <rect>
+     <x>676</x>
+     <y>111</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inite1">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>289</y>
+     <width>630</width>
+     <height>6</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/hgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_valve1">
+   <property name="geometry">
+    <rect>
+     <x>118</x>
+     <y>89</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>340</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>2#低负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf_w4">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>310</y>
+     <width>345</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg4-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>332</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>高压管路</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_7">
+   <property name="geometry">
+    <rect>
+     <x>633</x>
+     <y>121</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>低压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t2">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>111</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>121</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>高压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t7">
+   <property name="geometry">
+    <rect>
+     <x>493</x>
+     <y>151</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_down">
+   <property name="geometry">
+    <rect>
+     <x>638</x>
+     <y>182</y>
+     <width>160</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/WSB-OFF-JSQF-OFF-W.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value5">
+   <property name="geometry">
+    <rect>
+     <x>678</x>
+     <y>388</y>
+     <width>50</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>340</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>2#高负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t12">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>159</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>38</x>
+     <y>138</y>
+     <width>48</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_display3">
+   <property name="geometry">
+    <rect>
+     <x>566</x>
+     <y>400</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t12">
+   <property name="geometry">
+    <rect>
+     <x>743</x>
+     <y>159</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t5">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>160</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_cs">
+   <property name="geometry">
+    <rect>
+     <x>772</x>
+     <y>295</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/rxgj.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/rxgj.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_cs">
+   <property name="geometry">
+    <rect>
+     <x>411</x>
+     <y>295</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/Gas Picture/rxgj.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/rxgj.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_t15">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>115</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t4">
+   <property name="geometry">
+    <rect>
+     <x>367</x>
+     <y>139</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_valve2">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>59</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2#低负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>636</x>
+     <y>406</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>温度:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gd_value1_3">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>121</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>高压管道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t10">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>117</y>
+     <width>4</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1#低负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz3_t8">
+   <property name="geometry">
+    <rect>
+     <x>561</x>
+     <y>60</y>
+     <width>4</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>636</x>
+     <y>388</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>流量:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_41">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>96</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;方式&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_t7">
+   <property name="geometry">
+    <rect>
+     <x>676</x>
+     <y>151</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_watercut1">
+   <property name="geometry">
+    <rect>
+     <x>158</x>
+     <y>209</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>缺 水</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>444</y>
+     <width>800</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(50, 130, 240);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_login_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>用户登录</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_mode_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>控制模式切换</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_operamode_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>操作方式切换</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_measure_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>实时数据 </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_control_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>设备操作</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_constant_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>定值数据 </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_soe_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>故障信息</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_frequencyset_2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>运行设置</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t15">
+   <property name="geometry">
+    <rect>
+     <x>388</x>
+     <y>115</y>
+     <width>15</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz1_mod5">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>254</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz4_display2">
+   <property name="geometry">
+    <rect>
+     <x>566</x>
+     <y>380</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>####.#V</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz2_t1">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>111</y>
+     <width>10</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(18, 79, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>340</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>1#高负压泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_waterC">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>321</y>
+     <width>59</width>
+     <height>113</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/1#SB-OFF-CSF-OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_waterD">
+   <property name="geometry">
+    <rect>
+     <x>185</x>
+     <y>321</y>
+     <width>59</width>
+     <height>113</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/2#SB-ON-CSF-OFF.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_waterB">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>321</y>
+     <width>59</width>
+     <height>113</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Gas Picture/2#SB-OFF-CSF-ON.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool2_3">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>336</y>
+     <width>40</width>
+     <height>6</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/hgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool2_4">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>336</y>
+     <width>42</width>
+     <height>6</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/hgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>164</y>
+     <width>7</width>
+     <height>162</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/zgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf_cs1_w">
+   <property name="geometry">
+    <rect>
+     <x>253</x>
+     <y>300</y>
+     <width>7</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sdg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool2_5">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>320</y>
+     <width>100</width>
+     <height>6</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/hgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf_cs1">
+   <property name="geometry">
+    <rect>
+     <x>253</x>
+     <y>302</y>
+     <width>6</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/zgd.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bz_w2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>310</y>
+     <width>150</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg2-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool1_w">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>164</y>
+     <width>7</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sdg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool3_w">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>164</y>
+     <width>7</width>
+     <height>162</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sdg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool2">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>336</y>
+     <width>70</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool4">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>336</y>
+     <width>70</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool5">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>320</y>
+     <width>100</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/czg1-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pool6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>320</y>
+     <width>8</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/Gas Picture/sdg-w.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf1_valve1">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>365</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf1_mod1">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>350</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf2_mod1">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>375</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf2_valve1">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>390</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf3_valve1">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>365</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf3_mod1">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>350</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf4_mod1">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>315</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bf4_valve1">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>##.#%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bcdf">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>300</y>
+     <width>55</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>##.#A</string>
+   </property>
+  </widget>
+  <zorder>label_bf_cs</zorder>
+  <zorder>label_modelocate</zorder>
+  <zorder>label_gd_value1</zorder>
+  <zorder>label_45</zorder>
+  <zorder>label_bz3_up</zorder>
+  <zorder>label_22</zorder>
+  <zorder>label_lowpool</zorder>
+  <zorder>frame</zorder>
+  <zorder>label_bz1_up</zorder>
+  <zorder>frame_6</zorder>
+  <zorder>label_gd_value9</zorder>
+  <zorder>label_bz1_t6</zorder>
+  <zorder>label</zorder>
+  <zorder>label_43</zorder>
+  <zorder>label_bz1_display1</zorder>
+  <zorder>label_bz1_t3</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_gd_value1_4</zorder>
+  <zorder>label_bz3_cs</zorder>
+  <zorder>label_bz1_display2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_waterA</zorder>
+  <zorder>label_bz2_mod2</zorder>
+  <zorder>label_bz1_t9</zorder>
+  <zorder>label_bz4_display1</zorder>
+  <zorder>label_bz3_display2</zorder>
+  <zorder>label_bz1_t11</zorder>
+  <zorder>label_gd_value10</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_bz2_down</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_bz3_mod2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_bz1_t1</zorder>
+  <zorder>label_gd_value8</zorder>
+  <zorder>label_bz3_valve2</zorder>
+  <zorder>label_modemanual</zorder>
+  <zorder>label_gd_value1_9</zorder>
+  <zorder>label_bz4_mod2</zorder>
+  <zorder>label_gd_value2</zorder>
+  <zorder>label_modeauto</zorder>
+  <zorder>label_bz2_display2</zorder>
+  <zorder>label_bz3_display1</zorder>
+  <zorder>label_inite2</zorder>
+  <zorder>label_bz1_t7</zorder>
+  <zorder>label_46</zorder>
+  <zorder>label_bz2_valve5</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_25</zorder>
+  <zorder>label_gd_value6</zorder>
+  <zorder>label_21</zorder>
+  <zorder>label_bz2_mod1</zorder>
+  <zorder>label_gd_value7</zorder>
+  <zorder>label_bz1_display3</zorder>
+  <zorder>label_gd_value1_6</zorder>
+  <zorder>label_bz3_display3</zorder>
+  <zorder>label_bz1_t10</zorder>
+  <zorder>label_bz4_up</zorder>
+  <zorder>label_bz1_mod1</zorder>
+  <zorder>label_moderemote</zorder>
+  <zorder>label_bz2_display3</zorder>
+  <zorder>label_bz2_up</zorder>
+  <zorder>label_bz1_down</zorder>
+  <zorder>label_watercut1_2</zorder>
+  <zorder>label_highpool</zorder>
+  <zorder>label_gd_value1_8</zorder>
+  <zorder>label_bz_w3</zorder>
+  <zorder>label_bz3_mod1</zorder>
+  <zorder>label_28</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_bz3_valve1</zorder>
+  <zorder>label_gd_value4</zorder>
+  <zorder>label_bz1_mod2</zorder>
+  <zorder>label_bz4_mod1</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_bz4_valve1</zorder>
+  <zorder>label_bz1_t4</zorder>
+  <zorder>label_gd_value1_5</zorder>
+  <zorder>label_bz3_down</zorder>
+  <zorder>label_bz1_t14</zorder>
+  <zorder>label_40</zorder>
+  <zorder>label_gd_value3</zorder>
+  <zorder>label_inite1</zorder>
+  <zorder>label_bz1_valve1</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_bf_w4</zorder>
+  <zorder>label_23</zorder>
+  <zorder>label_gd_value1_7</zorder>
+  <zorder>label_bz2_t2</zorder>
+  <zorder>label_gd_value1_2</zorder>
+  <zorder>label_bz4_down</zorder>
+  <zorder>label_gd_value5</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_bz1_t12</zorder>
+  <zorder>label_26</zorder>
+  <zorder>label_bz4_display3</zorder>
+  <zorder>label_bz1_t5</zorder>
+  <zorder>label_bz4_cs</zorder>
+  <zorder>label_bz2_cs</zorder>
+  <zorder>label_bz1_t15</zorder>
+  <zorder>label_bz2_t4</zorder>
+  <zorder>label_bz1_valve2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_27</zorder>
+  <zorder>label_gd_value1_3</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_41</zorder>
+  <zorder>label_watercut1</zorder>
+  <zorder>frame_5</zorder>
+  <zorder>label_bz1_mod5</zorder>
+  <zorder>label_bz4_display2</zorder>
+  <zorder>label_bz2_t1</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_bz2_display1</zorder>
+  <zorder>label_watercut1_3</zorder>
+  <zorder>label_watercut1_4</zorder>
+  <zorder>label_bz4_valve2</zorder>
+  <zorder>label_bz1_t8</zorder>
+  <zorder>label_bz1_t13</zorder>
+  <zorder>label_bz1_t2</zorder>
+  <zorder>label_bz2_t3</zorder>
+  <zorder>label_bz2_t5</zorder>
+  <zorder>label_bz2_t6</zorder>
+  <zorder>label_bz2_t7</zorder>
+  <zorder>label_bz2_t8</zorder>
+  <zorder>label_bz2_t9</zorder>
+  <zorder>label_bz2_t12</zorder>
+  <zorder>label_bz2_t14</zorder>
+  <zorder>label_bz2_t11</zorder>
+  <zorder>label_bz2_t10</zorder>
+  <zorder>label_bz2_t13</zorder>
+  <zorder>label_bz2_t15</zorder>
+  <zorder>label_bz3_t2</zorder>
+  <zorder>label_bz3_t3</zorder>
+  <zorder>label_bz3_t5</zorder>
+  <zorder>label_bz3_t13</zorder>
+  <zorder>label_bz3_t9</zorder>
+  <zorder>label_bz3_t8</zorder>
+  <zorder>label_bz3_t10</zorder>
+  <zorder>label_bz3_t14</zorder>
+  <zorder>label_bz3_t12</zorder>
+  <zorder>label_bz3_t1</zorder>
+  <zorder>label_bz3_t6</zorder>
+  <zorder>label_bz3_t4</zorder>
+  <zorder>label_bz3_t7</zorder>
+  <zorder>label_bz3_t15</zorder>
+  <zorder>label_bz3_t11</zorder>
+  <zorder>label_bz4_t12</zorder>
+  <zorder>label_bz4_t13</zorder>
+  <zorder>label_bz4_t9</zorder>
+  <zorder>label_bz4_t5</zorder>
+  <zorder>label_bz4_t8</zorder>
+  <zorder>label_bz4_t1</zorder>
+  <zorder>label_bz4_t7</zorder>
+  <zorder>label_bz4_t10</zorder>
+  <zorder>label_bz4_t11</zorder>
+  <zorder>label_bz4_t14</zorder>
+  <zorder>label_bz4_t3</zorder>
+  <zorder>label_bz4_t6</zorder>
+  <zorder>label_bz4_t15</zorder>
+  <zorder>label_bz4_t2</zorder>
+  <zorder>label_bz4_t4</zorder>
+  <zorder>label_bz2_valve2</zorder>
+  <zorder>label_bz2_valve1</zorder>
+  <zorder>label_inite2_w</zorder>
+  <zorder>label_inite2_w_2</zorder>
+  <zorder>label_inite3_w</zorder>
+  <zorder>label_bz4_cs_w</zorder>
+  <zorder>label_bz2_cs_w</zorder>
+  <zorder>label_bz3_cs_w</zorder>
+  <zorder>label_waterD</zorder>
+  <zorder>label_waterC</zorder>
+  <zorder>label_waterB</zorder>
+  <zorder>label_pool2_3</zorder>
+  <zorder>label_pool2_4</zorder>
+  <zorder>label_pool3</zorder>
+  <zorder>label_pool1</zorder>
+  <zorder>label_pool2_5</zorder>
+  <zorder>label_inite1_2</zorder>
+  <zorder>label_inite1_w</zorder>
+  <zorder>label_bf_cs1</zorder>
+  <zorder>label_19</zorder>
+  <zorder>label_bf_cs1_w</zorder>
+  <zorder>label_bz_w2</zorder>
+  <zorder>label_pool1_w</zorder>
+  <zorder>label_pool3_w</zorder>
+  <zorder>label_pool2</zorder>
+  <zorder>label_pool5</zorder>
+  <zorder>label_pool6</zorder>
+  <zorder>label_pool4</zorder>
+  <zorder>label_bz2_mod5</zorder>
+  <zorder>label_bz1_valve5</zorder>
+  <zorder>label_bz3_mod5</zorder>
+  <zorder>label_bz3_valve5</zorder>
+  <zorder>label_bz4_mod5</zorder>
+  <zorder>label_bz4_valve5</zorder>
+  <zorder>label_bf1_valve1</zorder>
+  <zorder>label_bf1_mod1</zorder>
+  <zorder>label_bf2_mod1</zorder>
+  <zorder>label_bf2_valve1</zorder>
+  <zorder>label_bf3_valve1</zorder>
+  <zorder>label_bf3_mod1</zorder>
+  <zorder>label_bf4_mod1</zorder>
+  <zorder>label_bf4_valve1</zorder>
+  <zorder>label_bcdf</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="6"/>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

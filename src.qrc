@@ -1,0 +1,90 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/red2.png</file>
+        <file>pic/grey2.png</file>
+        <file>pic/green2.png</file>
+        <file>pic/blue.png</file>
+        <file>pic/arrow.png</file>
+        <file>pic/yellow2.png</file>
+        <file>pic/loginin.png</file>
+        <file>pic/loginout.png</file>
+        <file>pic/loginwhite.png</file>
+        <file>pic/modify.png</file>
+        <file>pic/logo.png</file>
+        <file>pic/startup.jpg</file>
+        <file>pic/START.png</file>
+        <file>Gas Picture/zgd.png</file>
+        <file>Gas Picture/WSB-ON-JSQF-ON-W.png</file>
+        <file>Gas Picture/WSB-ON-JSQF-ON.png</file>
+        <file>Gas Picture/WSB-ON-JSQF-OFF-W.png</file>
+        <file>Gas Picture/WSB-ON-JSQF-OFF.png</file>
+        <file>Gas Picture/WSB-OFF-JSQF-ON-W.png</file>
+        <file>Gas Picture/WSB-OFF-JSQF-ON.png</file>
+        <file>Gas Picture/WSB-OFF-JSQF-OFF-W.png</file>
+        <file>Gas Picture/WSB-OFF-JSQF-OFF.png</file>
+        <file>Gas Picture/sump.png</file>
+        <file>Gas Picture/startup.jpg</file>
+        <file>Gas Picture/sdg-w.png</file>
+        <file>Gas Picture/sdg1-w.png</file>
+        <file>Gas Picture/sdg.png</file>
+        <file>Gas Picture/rxgj-w.png</file>
+        <file>Gas Picture/rxgj.png</file>
+        <file>Gas Picture/rgj-w.png</file>
+        <file>Gas Picture/rgj.png</file>
+        <file>Gas Picture/red.png</file>
+        <file>Gas Picture/ONEKEY-OVER.png</file>
+        <file>Gas Picture/ONEKEY-JQDF.png</file>
+        <file>Gas Picture/ONEKEY-CQDF.png</file>
+        <file>Gas Picture/logo.png</file>
+        <file>Gas Picture/lgj-w.png</file>
+        <file>Gas Picture/lgj.png</file>
+        <file>Gas Picture/jq-warn.png</file>
+        <file>Gas Picture/JQDF-ON-CQDF-ON.png</file>
+        <file>Gas Picture/JQDF-ON-CQDF-OFF.png</file>
+        <file>Gas Picture/JQDF-OFF-CQDF-ON.png</file>
+        <file>Gas Picture/JQDF-OFF-CQDF-OFF.png</file>
+        <file>Gas Picture/hgd-w.png</file>
+        <file>Gas Picture/hgd.png</file>
+        <file>Gas Picture/green.png</file>
+        <file>Gas Picture/czg4-w.png</file>
+        <file>Gas Picture/czg3-w.png</file>
+        <file>Gas Picture/czg2-w.png</file>
+        <file>Gas Picture/czg1-w.png</file>
+        <file>Gas Picture/cszg.png</file>
+        <file>Gas Picture/cq-warn.png</file>
+        <file>Gas Picture/2#SB-ON-CSF-ON.png</file>
+        <file>Gas Picture/2#SB-ON-CSF-OFF.png</file>
+        <file>Gas Picture/2#SB-OFF-CSF-ON.png</file>
+        <file>Gas Picture/2#SB-OFF-CSF-OFF.png</file>
+        <file>Gas Picture/1#SB-ON-CSF-ON.png</file>
+        <file>Gas Picture/1#SB-ON-CSF-OFF.png</file>
+        <file>Gas Picture/1#SB-OFF-CSF-ON.png</file>
+        <file>Gas Picture/1#SB-OFF-CSF-OFF.png</file>
+    </qresource>
+    <qresource prefix="/YCP">
+        <file>YCP/WSB_ON_JS_ON_CS_ON.png</file>
+        <file>YCP/WSB_ON_JS_ON_CS_OFF.png</file>
+        <file>YCP/WSB_ON_JS_OFF_CS_ON.png</file>
+        <file>YCP/WSB_ON_JS_OFF_CS_OFF.png</file>
+        <file>YCP/WSB_OFF_JS_ON_CS_ON.png</file>
+        <file>YCP/WSB_OFF_JS_ON_CS_OFF.png</file>
+        <file>YCP/WSB_OFF_JS_OFF_CS_ON.png</file>
+        <file>YCP/WSB_OFF_JS_OFF_CS_OFF.png</file>
+        <file>YCP/JQ1_ON_CQ1_ON_JQ2_ON_CQ2_ON.png</file>
+        <file>YCP/JQ1_ON_CQ1_ON_JQ2_ON_CQ2_OFF.png</file>
+        <file>YCP/JQ1_ON_CQ1_ON_JQ2_OFF_CQ2_ON.png</file>
+        <file>YCP/JQ1_ON_CQ1_ON_JQ2_OFF_CQ2_OFF.png</file>
+        <file>YCP/JQ1_ON_CQ1_OFF_JQ2_ON_CQ2_ON.png</file>
+        <file>YCP/JQ1_ON_CQ1_OFF_JQ2_ON_CQ2_OFF.png</file>
+        <file>YCP/JQ1_ON_CQ1_OFF_JQ2_OFF_CQ2_ON.png</file>
+        <file>YCP/JQ1_ON_CQ1_OFF_JQ2_OFF_CQ2_OFF.png</file>
+        <file>YCP/JQ1_OFF_CQ1_ON_JQ2_ON_CQ2_ON.png</file>
+        <file>YCP/JQ1_OFF_CQ1_ON_JQ2_ON_CQ2_OFF.png</file>
+        <file>YCP/JQ1_OFF_CQ1_ON_JQ2_OFF_CQ2_ON.png</file>
+        <file>YCP/JQ1_OFF_CQ1_ON_JQ2_OFF_CQ2_OFF.png</file>
+        <file>YCP/JQ1_OFF_CQ1_OFF_JQ2_ON_CQ2_ON.png</file>
+        <file>YCP/JQ1_OFF_CQ1_OFF_JQ2_ON_CQ2_OFF.png</file>
+        <file>YCP/JQ1_OFF_CQ1_OFF_JQ2_OFF_CQ2_ON.png</file>
+        <file>YCP/JQ1_OFF_CQ1_OFF_JQ2_OFF_CQ2_OFF.png</file>
+    </qresource>
+</RCC>
