@@ -1,0 +1,878 @@
+<?xml version="1.0"?>
+<PROTOCOL_INFO>
+	<ProtoName>UK_4Z</ProtoName>
+	<Version>0</Version>
+	<PrivExist>0</PrivExist>
+	<MeasureNum>3</MeasureNum>
+	<PrivMeasureNum>0</PrivMeasureNum>
+	<ConstantNum>1</ConstantNum>
+	<FaulCodeGroupNum>0</FaulCodeGroupNum>
+    <PUBLIC>
+		<TeleAction>
+			<FUNCODE>2</FUNCODE>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>34</CommuTotal>
+			<DisplayTotal>34</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>进气蝶阀1开到位</Name>
+					<addr>0</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="1">
+					<Name>进气蝶阀1关到位</Name>
+					<addr>1</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="2">
+					<Name>出气蝶阀1开到位</Name>
+					<addr>2</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="3">
+					<Name>出气蝶阀1关到位</Name>
+					<addr>3</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="4">
+					<Name>进气蝶阀2开到位</Name>
+					<addr>4</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="5">
+					<Name>进气蝶阀2关到位</Name>
+					<addr>5</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="6">
+					<Name>出气蝶阀2开到位</Name>
+					<addr>6</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="7">
+					<Name>出气蝶阀2关到位</Name>
+					<addr>7</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="8">
+					<Name>进水球阀开到位</Name>
+					<addr>8</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="9">
+					<Name>进水球阀关到位</Name>
+					<addr>9</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="10">
+					<Name>出水球阀开到位</Name>
+					<addr>10</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="11">
+					<Name>出水球阀关到位</Name>
+					<addr>11</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="12">
+					<Name>瓦斯泵状态</Name>
+					<addr>12</addr>
+					<Comment>0:待机;1:运行</Comment>
+				</Point>
+				<Point index="13">
+					<Name>断水信号</Name>
+					<addr>13</addr>
+					<Comment>0:无;1:有</Comment>
+				</Point>
+				<Point index="14">
+					<Name>急停中</Name>
+					<addr>14</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="15">
+					<Name>检修中</Name>
+					<addr>15</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="16">
+					<Name>进气蝶阀1开动作中</Name>
+					<addr>16</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="17">
+					<Name>进气蝶阀1关动作中</Name>
+					<addr>17</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="18">
+					<Name>出气蝶阀1开动作中</Name>
+					<addr>18</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="19">
+					<Name>出气蝶阀1关动作中</Name>
+					<addr>19</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="20">
+					<Name>进气蝶阀2开动作中</Name>
+					<addr>20</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="21">
+					<Name>进气蝶阀2关动作中</Name>
+					<addr>21</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="22">
+					<Name>出气蝶阀2开动作中</Name>
+					<addr>22</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="23">
+					<Name>出气蝶阀2关动作中</Name>
+					<addr>23</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="24">
+					<Name>进水阀开动作中</Name>
+					<addr>24</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="25">
+					<Name>进水阀关动作中</Name>
+					<addr>25</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="26">
+					<Name>出水球阀开动作中</Name>
+					<addr>26</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="27">
+					<Name>出水球阀关动作中</Name>
+					<addr>27</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="28">
+					<Name>瓦斯泵开动作中</Name>
+					<addr>28</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>	
+				<Point index="29">
+					<Name>瓦斯泵关动作中</Name>
+					<addr>29</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="30">
+					<Name>一键启动中</Name>
+					<addr>30</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="31">
+					<Name>一键关闭中</Name>
+					<addr>31</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+			    <Point index="32">
+					<Name>操作中</Name>
+					<addr>32</addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="33">
+					<Name>当前选择管路</Name>
+					<addr>33</addr>
+					<Comment>0:1#管;1:2#管</Comment>
+				</Point>
+			</DisplayPoint>		
+		</TeleAction>
+		<MeasureGroup Gid="0">
+		    <FUNCODE>4</FUNCODE>
+			<STARTADDR>100</STARTADDR>
+			<CommuTotal>25</CommuTotal>
+			<DisplayTotal>25</DisplayTotal>
+			<DisplayPoint>
+			    <Point Index="0">
+				      <Name>负压泵电机表面温度</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>10</PATIO>
+					  <Addr>100</Addr>
+					  <Comment>单位：℃</Comment>
+				</Point>
+			    <Point Index="1">
+				      <Name>负压泵电机前轴温</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>10</PATIO>
+					  <Addr>101</Addr>
+					  <Comment>单位：℃</Comment>
+				</Point>
+				<Point Index="2">
+				      <Name>负压泵电机后轴温</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>10</PATIO>
+					  <Addr>102</Addr>
+					  <Comment>单位：℃</Comment>
+				</Point>
+				<Point Index="3">
+				      <Name>负压泵前轴温度</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>10</PATIO>
+					  <Addr>103</Addr>
+					  <Comment>单位：℃</Comment>
+				</Point>
+				<Point Index="4">
+				      <Name>负压泵后轴温度</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>10</PATIO>
+					  <Addr>104</Addr>
+					  <Comment>单位：℃</Comment>
+				</Point>
+				<Point Index="5">
+				      <Name>正压</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>100</PATIO>
+					  <Addr>105</Addr>
+					  <Comment>单位：MPa</Comment>
+				</Point>
+				<Point Index="6">
+				      <Name>负压</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>106</Addr>
+					  <Comment>单位：KPa</Comment>
+				</Point>
+				<Point Index="7">
+				      <Name>进气蝶阀通信状态485</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>107</Addr>
+					  <Comment>1-在线；0-离线</Comment>
+				</Point>
+				<Point Index="8">
+				      <Name>出气蝶阀通信状态485</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>108</Addr>
+					  <Comment>1-在线；0-离线</Comment>
+				</Point>
+				<Point Index="9">
+				      <Name>进水阀通信状态485</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>109</Addr>
+					  <Comment>1-在线；0-离线</Comment>
+				</Point>			
+				<Point Index="10">
+				      <Name>进气蝶阀控制方式</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>110</Addr>
+					  <Comment>0：停止、4：现场、8：远程</Comment>
+				</Point>
+				<Point Index="11">
+				      <Name>出气蝶阀控制方式</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>111</Addr>
+					  <Comment>0：停止、4：现场、8：远程</Comment>
+				</Point>
+				<Point Index="12">
+				      <Name>进水阀控制方式</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>112</Addr>
+					  <Comment>0：停止、4：现场、8：远程</Comment>
+				</Point>
+				<Point Index="13">
+				      <Name>进气蝶阀告警有无</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>113</Addr>
+					  <Comment>0：无、4：有</Comment>
+				</Point>
+				<Point Index="14">
+				      <Name>出气蝶阀告警有无</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>114</Addr>
+					  <Comment>0：无、4：有</Comment>
+				</Point>
+				<Point Index="15">
+				      <Name>进进水阀告警有无</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>115</Addr>
+					  <Comment>0：无、4：有</Comment>
+				</Point>
+				<Point Index="16">
+				      <Name>进气蝶阀状态</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>116</Addr>
+					  <Comment>1-正在开;2-正在关;64-开到位;128-关到位</Comment>
+				</Point>
+				<Point Index="17">
+				      <Name>出气蝶阀状态</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>117</Addr>
+					  <Comment>1-正在开;2-正在关;64-开到位;128-关到位</Comment>
+				</Point>
+				<Point Index="18">
+				      <Name>进水阀状态</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>118</Addr>
+					  <Comment>1-正在开;2-正在关;64-开到位;128-关到位</Comment>
+				</Point>
+				<Point Index="19">
+				      <Name>进气蝶阀开度</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>119</Addr>
+					  <Comment>0~100%</Comment>
+				</Point>
+				<Point Index="20">
+				      <Name>出气蝶阀开度</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>120</Addr>
+					  <Comment>0~100%</Comment>
+				</Point>
+				<Point Index="21">
+				      <Name>进水阀开度</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>121</Addr>
+					  <Comment>0~100%</Comment>
+				</Point>
+				<Point Index="22">
+				      <Name>进气蝶阀故障代码</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>122</Addr>
+					  <Comment>详见故障代码表</Comment>
+				</Point>
+				<Point Index="23">
+				      <Name>出气蝶阀故障代码</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>123</Addr>
+					  <Comment>详见故障代码表</Comment>
+				</Point>
+				<Point Index="24">
+				      <Name>进水阀故障代码</Name>
+					  <SIZE>16</SIZE>
+					  <PATIO>1</PATIO>
+					  <Addr>124</Addr>
+					  <Comment>详见故障代码表</Comment>
+				</Point>
+			</DisplayPoint>		
+		</MeasureGroup>
+		<MeasureGroup Gid="1">
+		    <FUNCODE>4</FUNCODE>
+			<STARTADDR>128</STARTADDR>
+			<CommuTotal>23</CommuTotal>
+			<DisplayTotal>23</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>进气蝶阀1开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>128</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="1">
+					<Name>进气蝶阀1关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>129</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="2">
+					<Name>出气蝶阀1开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>130</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="3">
+					<Name>出气蝶阀1关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>131</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>		
+				<Point index="4">
+					<Name>进气蝶阀2开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>132</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>
+				<Point index="5">
+					<Name>进气蝶阀2关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>133</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="6">
+					<Name>出气蝶阀2开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>134</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="7">
+					<Name>出气蝶阀2关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>135</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>					
+				<Point index="8">
+					<Name>进水球阀开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>136</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="9">
+					<Name>进水球阀关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>137</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>	
+				<Point index="10">
+					<Name>出水球阀开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>138</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="11">
+					<Name>出水球阀关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>139</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="12">
+					<Name>瓦斯泵开动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>140</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>				
+				<Point index="13">
+					<Name>瓦斯泵关动作超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>141</Addr>
+					<Comment>0:否;1:是</Comment>
+				</Point>	
+				<Point index="14">
+					<Name>断水信号超时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>142</Addr>
+					<Comment>0:否;170:是</Comment>
+				</Point>	
+				<Point index="15">
+					<Name>一键启动结果</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>143</Addr>
+					<Comment>0:否;170:是</Comment>
+				</Point>	
+				<Point index="16">
+					<Name>变频器输入电压</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>144</Addr>
+					<Comment>V</Comment>
+				</Point>				
+				<Point index="17">
+					<Name>变频器输出电压</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>145</Addr>
+					<Comment>V</Comment>
+				</Point>
+				<Point index="18">
+					<Name>变频器输入电流</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>146</Addr>
+					<Comment>单位：1A</Comment>
+				</Point>
+				<Point index="19">
+					<Name>变频器输出电流</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>147</Addr>
+					<Comment>单位：1A</Comment>
+				</Point>
+				<Point index="20">
+					<Name>瓦斯泵运行频率</Name>
+					<SIZE>16</SIZE>
+					<RATIO>100</RATIO>
+					<Addr>148</Addr>
+					<Comment>单位：Hz</Comment>
+				</Point>
+				<Point index="21">
+					<Name>变频器给定频率</Name>
+					<SIZE>16</SIZE>
+					<RATIO>100</RATIO>
+					<Addr>149</Addr>
+					<Comment>单位：Hz</Comment>
+				</Point>
+			    <Point index="22">
+					<Name>一键关闭结果</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>150</Addr>
+					<Comment>0:否;170:是</Comment>
+				</Point>
+			</DisplayPoint>
+		</MeasureGroup>
+		<MeasureGroup Gid="2">
+		    <FUNCODE>4</FUNCODE>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</MeasureGroup>
+		<ElecDegree>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ElecDegree>	
+		<FaultParse>
+			<Section>T</Section>
+			<GroupId>0</GroupId>
+			<Total>0</Total>	
+		</FaultParse>
+		<SwitchStatusParse>
+			<Section>T</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>0</PointIndex>
+		</SwitchStatusParse>
+		<VoltageandCurrentParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<Voltage>0</Voltage>
+			<Current>0</Current>
+		</VoltageandCurrentParse>			
+	</PUBLIC>
+	<COMMON>
+		<ConstantGroup Gid="0">
+			<FunCodeW>16</FunCodeW>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>24</CommuTotal>
+			<DisplayTotal>20</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>备用1</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>0</Addr>
+					<Comment>备用</Comment>
+				</Point>
+				<Point index="1">
+					<Name>进水球阀/闸阀输出最大时长</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>1</Addr>
+					<Comment>设定范围:0-300S</Comment>
+				</Point>
+				<Point index="2">
+					<Name>断水信号屏蔽时间</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>2</Addr>
+					<Comment>设定范围:0-300S</Comment>
+				</Point>
+				<Point index="3">
+					<Name>进气蝶阀输出最大时长</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>3</Addr>
+					<Comment>设定范围:0-300S</Comment>
+				</Point>
+				<Point index="4">
+					<Name>出气蝶阀输出最大时长</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>4</Addr>
+					<Comment>设定范围:0-300S</Comment>
+				</Point>
+				<Point index="5">
+					<Name>负压泵前轴温度动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>5</Addr>
+					<Comment>设定范围:0-200℃</Comment>
+				</Point>
+				<Point index="6">
+					<Name>负压泵后轴温度动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>6</Addr>
+					<Comment>设定范围:0-200℃</Comment>
+				</Point>
+				<Point index="7">
+					<Name>负压泵电机表温动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>7</Addr>
+					<Comment>设定范围:0-200℃</Comment>
+				</Point>
+				<Point index="8">
+					<Name>负压泵电机前轴温动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>8</Addr>
+					<Comment>设定范围:0-200℃</Comment>
+				</Point>
+				<Point index="9">
+					<Name>负压泵电机后轴温动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>9</Addr>
+					<Comment>设定范围:0-200℃</Comment>
+				</Point>
+				<Point index="10">
+					<Name>抽放管路选择</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>10</Addr>
+					<Comment>0:1#管，1：2#管</Comment>
+				</Point>
+				<Point index="11">
+					<Name>断水信号开关</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>11</Addr>
+					<Comment>0：关闭，1：打开</Comment>
+				</Point>
+				<Point index="12">
+					<Name>负压泵前轴温保护投退</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>16</Addr>
+					<Comment>0：退出，1：告警，3：投入</Comment>
+				</Point>
+				<Point index="13">
+					<Name>负压泵后轴温保护投退</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>17</Addr>
+					<Comment>0：退出，1：告警，3：投入</Comment>
+				</Point>
+				<Point index="14">
+					<Name>负压泵电机表温保护投退</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>18</Addr>
+					<Comment>0：退出，1：告警，3：投入</Comment>
+				</Point>
+				<Point index="15">
+					<Name>负压泵电机前轴保护投退</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>19</Addr>
+					<Comment>0：退出，1：告警，3：投入</Comment>
+				</Point>
+				<Point index="16">
+					<Name>负压泵电机后轴保护投退</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>20</Addr>
+					<Comment>0：退出，1：告警，3：投入</Comment>
+				</Point>
+				<Point index="17">
+					<Name>变频器给定频率设定</Name>
+					<SIZE>16</SIZE>
+					<RATIO>100</RATIO>
+					<Addr>21</Addr>
+					<Comment>设定范围：0~50HZ</Comment>
+				</Point>
+				<Point index="18">
+					<Name>瓦斯泵动作时长</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Addr>22</Addr>
+					<Comment>设定范围:0-300S</Comment>
+				</Point>
+				<Point index="19">
+					<Name>频率修改确认</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>23</Addr>
+					<Comment>为1有效</Comment>
+				</Point>
+			</DisplayPoint>
+		</ConstantGroup>
+		<ConstantGroup Gid="1">
+			<FunCodeW>16</FunCodeW>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ConstantGroup>
+		<TimeSync>
+			<ENABLE>0</ENABLE>
+			<YEAR>256</YEAR>
+			<MON>257</MON>
+			<DAY>258</DAY>
+			<HOUR>259</HOUR>
+			<MIN>260</MIN>
+			<SEC>261</SEC>
+		</TimeSync>
+		<Fault>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</Fault>
+		<SwitchControl>
+			<TOTAL>27</TOTAL>
+			<CHANNEL id="0">
+				<ADDR>255</ADDR>
+				<CMD>65280</CMD>
+				<DESC>合闸备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="1">
+				<ADDR>255</ADDR>
+				<CMD>65280</CMD>
+				<DESC>分闸备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="2">
+				<ADDR>255</ADDR>
+				<CMD>65280</CMD>
+				<DESC>重置备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="3">
+				<ADDR>255</ADDR>
+				<CMD>65280</CMD>
+				<DESC>测试备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="4">
+				<ADDR>0</ADDR>
+				<CMD>65280</CMD>
+				<DESC>进气蝶阀1开</DESC>
+			</CHANNEL>
+			<CHANNEL id="5">
+				<ADDR>1</ADDR>
+				<CMD>65280</CMD>
+				<DESC>进气蝶阀1关</DESC>
+			</CHANNEL>
+			<CHANNEL id="6">
+				<ADDR>2</ADDR>
+				<CMD>65280</CMD>
+				<DESC>出气蝶阀1开</DESC>
+			</CHANNEL>
+			<CHANNEL id="7">
+				<ADDR>3</ADDR>
+				<CMD>65280</CMD>
+				<DESC>出气蝶阀1关</DESC>
+			</CHANNEL>
+			<CHANNEL id="8">				
+				<ADDR>4</ADDR>
+				<CMD>65280</CMD>
+				<DESC>进气蝶阀2开</DESC>
+			</CHANNEL>
+			<CHANNEL id="9">				
+				<ADDR>5</ADDR>
+				<CMD>65280</CMD>
+				<DESC>进气蝶阀2关</DESC>
+			</CHANNEL>
+			<CHANNEL id="10">				
+				<ADDR>6</ADDR>
+				<CMD>65280</CMD>
+				<DESC>出气蝶阀2开</DESC>
+			</CHANNEL>
+			<CHANNEL id="11">				
+				<ADDR>7</ADDR>
+				<CMD>65280</CMD>
+				<DESC>出气蝶阀2关</DESC>
+			</CHANNEL>
+			<CHANNEL id="12">			
+				<ADDR>8</ADDR>
+				<CMD>65280</CMD>
+				<DESC>进水球阀开</DESC>
+			</CHANNEL>
+			<CHANNEL id="13">				
+				<ADDR>9</ADDR>
+				<CMD>65280</CMD>
+				<DESC>进水球阀关</DESC>
+			</CHANNEL>
+			<CHANNEL id="14">				
+				<ADDR>10</ADDR>
+				<CMD>65280</CMD>
+				<DESC>出水球阀开</DESC>
+			</CHANNEL>
+			<CHANNEL id="15">				
+				<ADDR>11</ADDR>
+				<CMD>65280</CMD>
+				<DESC>出水球阀关</DESC>
+			</CHANNEL>
+			<CHANNEL id="16">				
+				<ADDR>12</ADDR>
+				<CMD>65280</CMD>
+				<DESC>瓦斯泵开</DESC>
+			</CHANNEL>
+			<CHANNEL id="17">				
+				<ADDR>13</ADDR>
+				<CMD>65280</CMD>
+				<DESC>瓦斯泵关</DESC>
+			</CHANNEL>
+			<CHANNEL id="18">			    
+				<ADDR>14</ADDR>
+				<CMD>65280</CMD>
+				<DESC>一键启动</DESC>
+			</CHANNEL>
+			<CHANNEL id="19">			
+				<ADDR>15</ADDR>
+				<CMD>65280</CMD>
+				<DESC>一键关闭</DESC>
+			</CHANNEL>
+			<CHANNEL id="20"> 				
+				<ADDR>16</ADDR>
+				<CMD>65280</CMD>
+				<DESC>检修</DESC>
+			</CHANNEL>
+			<CHANNEL id="21">				
+				<ADDR>17</ADDR>
+				<CMD>65280</CMD>
+				<DESC>急停</DESC>
+			</CHANNEL>
+			<CHANNEL id="22">				
+				<ADDR>19</ADDR>
+				<CMD>65280</CMD>
+				<DESC>退出检修</DESC>
+			</CHANNEL>
+			<CHANNEL id="23">				
+				<ADDR>20</ADDR>
+				<CMD>65280</CMD>
+				<DESC>退出急停</DESC>
+			</CHANNEL>
+			<CHANNEL id="24">			    
+				<ADDR>21</ADDR>
+				<CMD>65280</CMD>
+				<DESC>一键启动1</DESC>
+			</CHANNEL>
+			<CHANNEL id="25">				
+				<ADDR>22</ADDR>
+				<CMD>65280</CMD>
+				<DESC>一键关闭1</DESC>
+			</CHANNEL>
+			<CHANNEL id="26">				
+				<ADDR>23</ADDR>
+				<CMD>65280</CMD>
+				<DESC>频率修改确认</DESC>
+			</CHANNEL>
+		</SwitchControl>			
+	</COMMON>
+</PROTOCOL_INFO>
+

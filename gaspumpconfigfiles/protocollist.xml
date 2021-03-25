@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROTOCOLLIST>
+    <PROTO_NUM>3</PROTO_NUM>   
+    <PROTOCOL index="0">                    
+        <ICON>BZ</ICON>                     
+        <NAME>UK-4Z</NAME>                   
+        <VER_NUM>1</VER_NUM>                  
+        <PROTOCOL_INS VER="0">                
+            <PRIVATEENABLE>0</PRIVATEENABLE>    
+            <FILENAME>UK-4ZV0.xml</FILENAME>  
+        </PROTOCOL_INS>
+    </PROTOCOL>
+    <PROTOCOL index="1">
+        <ICON>BF</ICON>
+        <NAME>UK-4F</NAME>
+        <VER_NUM>1</VER_NUM>
+        <PROTOCOL_INS VER="0">
+            <PRIVATEENABLE>0</PRIVATEENABLE>
+            <FILENAME>UK-4FV0.xml</FILENAME>
+        </PROTOCOL_INS>
+    </PROTOCOL>
+	<PROTOCOL index="2">
+        <ICON>KD</ICON>
+        <NAME>HNHY_Q</NAME>
+        <VER_NUM>1</VER_NUM>
+        <PROTOCOL_INS VER="0">
+            <PRIVATEENABLE>0</PRIVATEENABLE>
+            <FILENAME>HNHY_Q.xml</FILENAME>
+        </PROTOCOL_INS>
+    </PROTOCOL>
+</PROTOCOLLIST>

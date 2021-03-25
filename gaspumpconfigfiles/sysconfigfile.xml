@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMETERSET>
+    <LIMITSET>
+        <Mainsumpinterlock>0</Mainsumpinterlock>
+        <AuxiSumpinterlock>0</AuxiSumpinterlock>
+        <WhetherRelationPUMP>0</WhetherRelationPUMP>
+        <RelationPumpGroup>0</RelationPumpGroup>
+		<RelationPumpGroup1>0</RelationPumpGroup1>
+    </LIMITSET>
+</PARAMETERSET>

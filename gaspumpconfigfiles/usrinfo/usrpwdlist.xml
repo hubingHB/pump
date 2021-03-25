@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usrinfolist>
+    <admin>
+        <name>999999</name>
+        <passwd>202020</passwd>
+    </admin>
+    <engineer>
+        <usrinfo id="0">
+            <name>100000</name>
+            <passwd>111111</passwd>
+        </usrinfo>
+        <usrinfo id="1">
+            <name>100001</name>
+            <passwd>222222</passwd>
+        </usrinfo>
+    </engineer>
+    <operat>
+        <usrinfo id="0">
+            <name>200000</name>
+            <passwd>666666</passwd>
+        </usrinfo>
+        <usrinfo id="1">
+            <name>200001</name>
+            <passwd>111111</passwd>
+        </usrinfo>
+    </operat>
+</usrinfolist>

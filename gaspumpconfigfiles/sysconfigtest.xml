@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--logicaddr COM0:0-15; COM1:16-31; COM2:32-47; COM3:48-63 ; COM4: 64-79;COM5: 80-95-->
+<SYSCONFIG>
+    <SYSCOMMU>
+        <StationName>test</StationName>
+        <COM port="0">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>2</DEVICE_NUM>
+            <DEV logicaddr="0">
+                <PHY_ADDR>1</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>1#泵组</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			<DEV logicaddr="1">
+                <PHY_ADDR>2</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>2#泵组</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="1">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>2</DEVICE_NUM>
+            <DEV logicaddr="16">
+                <PHY_ADDR>17</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>3#泵组</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			<DEV logicaddr="17">
+                <PHY_ADDR>18</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>4#泵组</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="2">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>2</DEVICE_NUM>
+            <DEV logicaddr="32">
+                <PHY_ADDR>33</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>泵房</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			<DEV logicaddr="33">
+                <PHY_ADDR>34</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>水泵房馈电</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="3">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>0</DEVICE_NUM>
+        </COM>
+        <COM port="4">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>0</DEVICE_NUM>
+        </COM>
+        <COM port="5">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>0</DEVICE_NUM>
+        </COM>
+    </SYSCOMMU>
+</SYSCONFIG>

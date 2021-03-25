@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<PROTOCOL_INFO>
+	<ProtoName>HNHY_Q</ProtoName>
+	<Version>0</Version>
+	<PrivExist>0</PrivExist>
+	<MeasureNum>1</MeasureNum>
+	<PrivMeasureNum>0</PrivMeasureNum>
+	<ConstantNum>0</ConstantNum>
+	<FaulCodeGroupNum>0</FaulCodeGroupNum>
+    <PUBLIC>
+		<TeleAction>
+			<FUNCODE>0</FUNCODE>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</TeleAction>
+		<MeasureGroup Gid="0">
+			<FUNCODE>4</FUNCODE>
+			<STARTADDR>3</STARTADDR>
+			<CommuTotal>6</CommuTotal>
+			<DisplayTotal>6</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>开关状态</Name>
+					<SIZE>1</SIZE>
+					<RATIO>1</RATIO>
+					<Bitindex>5</Bitindex>
+					<Addr>3</Addr>
+					<Comment>1:正转合闸，0：分闸</Comment>
+				</Point>
+				<Point index="1">
+					<Name>Us</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Bitindex>0</Bitindex>
+					<Addr>4</Addr>
+					<Comment>系统电压</Comment>
+				</Point>
+				<Point index="2">
+					<Name>绝缘阻值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Bitindex>0</Bitindex>
+					<Addr>5</Addr>
+					<Comment>单位：欧姆</Comment>
+				</Point>
+				<Point index="3">
+					<Name>Ia</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<Bitindex>0</Bitindex>
+					<Addr>6</Addr>
+					<Comment>0-99999.9A</Comment>
+				</Point>
+				<Point index="4">
+					<Name>Ib</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Bitindex>0</Bitindex>
+					<Addr>7</Addr>
+					<Comment>0-99999.9A</Comment>
+				</Point>
+				<Point index="5">
+					<Name>Ic</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Bitindex>0</Bitindex>
+					<Addr>8</Addr>
+					<Comment>0-9999.9A</Comment>
+				</Point>
+			</DisplayPoint>	
+		</MeasureGroup>
+		<MeasureGroup Gid="1">
+		     <FUNCODE>4</FUNCODE>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</MeasureGroup>
+		<ElecDegree>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ElecDegree>
+		<FaultParse>
+			<Section>T</Section>
+			<GroupId>0</GroupId>
+			<Total>0</Total>
+		</FaultParse>
+		<SwitchStatusParse>
+			<Section>T</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>0</PointIndex>
+		</SwitchStatusParse>
+		<VoltageandCurrentParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<Voltage>3</Voltage>
+			<Current>0</Current>
+		</VoltageandCurrentParse>		
+	</PUBLIC>
+	<PRIVATE>
+		<MeasureGroup Gid="0">
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</MeasureGroup>
+		<MeasureGroup Gid="1">
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</MeasureGroup>
+		<ElecDegree>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ElecDegree>
+		<FaultParse>
+			<Section>M</Section>
+			<Total>0</Total>
+		</FaultParse>
+		<SwitchStatusParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>0</PointIndex>
+		</SwitchStatusParse>
+		<VoltageandCurrentParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<Voltage>0</Voltage>
+			<Current>0</Current>
+		</VoltageandCurrentParse>
+		<PowerDownStamp>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>0</PointIndex>
+		</PowerDownStamp>
+	</PRIVATE>
+	<COMMON>
+		<ConstantGroup Gid="0">
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ConstantGroup>
+		<ConstantGroup Gid="1">
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ConstantGroup>
+		<Fault>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</Fault>
+		<TimeSync>
+			<ENABLE>0</ENABLE>
+			<YEAR>0</YEAR>
+			<MON>0</MON>
+			<DAY>0</DAY>
+			<HOUR>0</HOUR>
+			<MIN>0</MIN>
+			<SEC>0</SEC>
+		</TimeSync>
+		<SwitchControl>
+			<TOTAL>6</TOTAL>
+			<CHANNEL id="0">
+				<ADDR>255</ADDR>
+				<CMD>0</CMD>
+				<DESC>合闸备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="1">
+				<ADDR>255</ADDR>
+				<CMD>0</CMD>
+				<DESC>分闸备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="2">
+				<ADDR>255</ADDR>
+				<CMD>0</CMD>
+				<DESC>重置备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="3">
+				<ADDR>255</ADDR>
+				<CMD>0</CMD>
+				<DESC>测试备用</DESC>
+			</CHANNEL>
+			<CHANNEL id="4">
+				<ADDR>97</ADDR>
+				<CMD>65280</CMD>
+				<DESC>复位</DESC>
+			</CHANNEL>
+			<CHANNEL id="5">
+				<ADDR>98</ADDR>
+				<CMD>65280</CMD>
+				<DESC>正转合闸</DESC>
+			</CHANNEL>
+			<CHANNEL id="6">
+				<ADDR>98</ADDR>
+				<CMD>0</CMD>
+				<DESC>正转分闸</DESC>
+			</CHANNEL>
+		</SwitchControl>
+	</COMMON>
+</PROTOCOL_INFO>
+
